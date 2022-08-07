@@ -1,0 +1,165 @@
+.large_viewpoint_external_box {
+  height: 647.5px !important;
+}
+
+.text_pozzle {
+  margin-top: -25px;
+}
+
+.logo_pozzle {}
+
+.phone_wrapper {
+  height: 1000px;
+}
+
+.logo_part {}
+
+.pozzle_logo {
+  width: 30% !important;
+}
+
+
+@media (min-width: 2200px) {
+  .large_viewpoint_external_box {
+    top: 35%;
+    width: 320px;
+  }
+
+  .logo_pozzle {
+    margin-left: 25px;
+  }
+
+  .text_pozzle {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .large_viewpoint_external_box {
+    top: 25%;
+    width: 320px;
+  }
+
+  .text_pozzle {
+    margin-top: -35px;
+  }
+
+  .bottom_img {
+    position: absolute;
+    top: 900px;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2199px) {
+  .large_viewpoint_external_box {
+    top: 25%;
+    width: 320px;
+  }
+
+  .bottom_img {
+    position: absolute;
+    top: 900px;
+  }
+
+  .text_pozzle {
+    margin-top: -35px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1600px) {
+  .large_viewpoint_external_box {
+    width: 320px;
+    top: 25%;
+  }
+
+  .logo_part {
+    margin-left: 20px;
+  }
+
+  .bottom_img {
+    position: absolute;
+    top: 900px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1365px) {
+  .large_viewpoint_external_box {
+    width: 320px;
+    top: 25%;
+  }
+
+  .logo_part {
+    margin-left: 20px;
+  }
+
+  .bottom_img {
+    display: none;
+  }
+
+  /* .logo_pozzle {
+    width: 60% !important;
+    margin-left: 25%;
+  } */
+}
+
+@media (min-width: 1025px) and (max-width: 1281px) {
+  .large_viewpoint_external_box {
+    width: 320px;
+    top: 25%;
+  }
+
+  .text_pozzle {
+    /* margin-top: 0px;
+    width: 50% !important;
+    margin-left: 25%; */
+    /* display: none; */
+  }
+
+  .left_img {
+    left: -80px;
+  }
+
+  .right_img {
+    right: -80px;
+  }
+
+  .bottom_img {
+    display: none;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  .large_viewpoint_external_box {
+    width: 320px;
+    height: 647.5px !important;
+  }
+
+  .logo_pozzle {
+    display: none;
+  }
+
+  .text_pozzle {
+    margin-top: 0px;
+    display: none;
+  }
+
+  .logo_part {
+    margin-left: 0px;
+  }
+
+  .phone_wrapper {
+    height: 100%;
+    min-height: 850px;
+  }
+
+  .pozzle_logo {
+    width: 30% !important;
+  }
+
+  .link_text {
+    font-size: 18px !important;
+  }
+
+}
