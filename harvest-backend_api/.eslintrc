@@ -1,0 +1,29 @@
+{
+    "env": {
+      "node": true,
+      "es6": true,
+      "mocha": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 6
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "parser": "babel-eslint",
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "no-await-in-loop": "off",
+      "no-restricted-syntax": "off",
+      "no-console": "off",
+      "one-var": "off",
+      "no-underscore-dangle": "off",
+      "no-nested-ternary": 0,
+      "no-param-reassign": 0,
+      "prettier/prettier": ["error"]
+    }
+  }
